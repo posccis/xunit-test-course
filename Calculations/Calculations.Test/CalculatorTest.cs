@@ -22,5 +22,6 @@ namespace Calculations.Tests
             double result = calculator.AddDouble(1.2, 3.5);
             Assert.Equal(4.7, result);
         }
+
     }
 }
