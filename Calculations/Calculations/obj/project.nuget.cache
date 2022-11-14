@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aEcJj29ZKxkPLyGbY2wgTOd4i59JBTHDxgeUyqiQRkch/gfVukJudEG6qVtridxsyFGCOD0goGg5NQiyERbccA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victo\\OneDrive\\Área de Trabalho\\MAIN\\Udemy\\XUnit_course\\Calculations\\Calculations\\Calculations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
+  ],
+  "logs": []
+}
