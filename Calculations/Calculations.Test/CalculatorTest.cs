@@ -22,6 +22,17 @@ namespace Calculations.Tests
             double result = calculator.AddDouble(1.2, 3.5);
             Assert.Equal(4.7, result);
         }
-
+        [Fact]
+        public void FiboDoesNotIncludeZero() 
+        {
+            Calculator calculator = new Calculator();
+            Assert.All(calculator.FiboNumbers, n => Assert.NotEqual(0, n));
+        }
+        [Fact]
+        public void FiboIncludes13() 
+        {
+            Calculator calculator = new Calculator();
+            Assert.Contains(13, calculator.FiboNumbers);
+        }
     }
 }

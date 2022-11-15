@@ -30,5 +30,6 @@ namespace Calculations.Tests
             Assert.False (string.IsNullOrEmpty(result));
         }
 
+
     }
 }
